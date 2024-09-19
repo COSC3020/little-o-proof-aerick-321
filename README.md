@@ -18,4 +18,4 @@ might help with the notation for mathematical expressions.
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 
-$f(n)\in O(g(n)) \iff \forsome c>0, \exists n_0, \forall n\ge n_0: f(n) \leg c g(n)$
+$f(n)\in O(g(n)) \iff \forsome c>0, \exists n_0, \forall n\ge n_0: f(n) \leq c g(n)$
