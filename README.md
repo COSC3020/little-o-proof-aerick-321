@@ -20,7 +20,9 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 Definition of big O
 
 $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) \leq c g(n)$
-For any c > 0 there is a $n_0$ so that $n \leq\n_0$ so $f(n)<c⋅g(n)$
+For any c > 0 there is a $n_0$ so that $n \leq n_0$  so $f(n)<c⋅g(n)$
+Then for O(g(n)) a specific c and $n_0$ such that $f(n)\leq c⋅g(n)$
+So $f(n)\in o(g(n)) ==> f(n)\in O(g(n))$
 
 
 “I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.”
