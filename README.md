@@ -19,8 +19,8 @@ $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 Definition of big O:  $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) \leq c g(n)$
 
-For any c > 0 there is a $n_0$ so that $n \leq n_0$  so $f(n)<c⋅g(n)$
-Then for O(g(n)) there is a specific c and $n_0$ such that $f(n)\leq c⋅g(n)$
+For any positive c there is a $n_0$ so that $n \leq n_0$ so $f(n)<cg(n)$ for o(g(n))
+Then for O(g(n)) since it f(n) exists for any c then if something is apart of o(g(n) then it is a part of O(g(n))
 
 
 So $f(n)\in o(g(n)) ==> f(n)\in O(g(n))$
